@@ -4,7 +4,7 @@ body{
 #titlediv{
     display: flex;
     align-items: center;
-    background-image: url('images/Home/japanka.jpg');
+    background-image: url('images/japanka.jpg');
     background-size: cover;
     width: 100%;
     height: 100vh;
