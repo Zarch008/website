@@ -1,0 +1,31 @@
+
+.botnavig {
+  padding:25px 25px;
+  background-color: #333;
+  overflow: hidden;
+  bottom: 0;
+  text-align: center;
+  margin-top: 20px;
+}
+.botnavig h6{
+  padding: 10px 10px;
+  font-size: 12px;
+  line-height: 1px;
+}
+.botnavig a {
+  color: #f2f2f2;
+  text-align: center;
+  padding: 15px 45px;
+  text-decoration: none;
+  font-size: 25px;
+  border-radius: 25px;
+}
+.botnavig a:hover {
+  background-color:  #04AA6D;
+  color: black;
+}
+.botnavig a.active {
+  background-color: #04AA6D;
+  color: white;
+}
+  

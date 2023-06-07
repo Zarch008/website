@@ -1,0 +1,74 @@
+body{
+    background-image: url('images/petrol/petrol_bg.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100vw 100vh;
+    padding-bottom: 50vh;
+}
+#title{
+    font-family: Comic Neue;
+    font-weight: 700;
+    font-size: 7vh;
+    text-align: center;
+    margin-bottom: 4vh;
+}
+#main{
+    display: grid;
+    grid-template-columns: 9.5vw 80vw 9.5vw;
+}
+.boxtitle{
+    text-align: center;
+    font-size: 4vh;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 600;
+    color: sandybrown;
+}
+.boxtitle::after{
+    content: "";
+    height: 0.01vh;
+    width: 80vw;
+    background-color: white;
+    position: relative;
+    left: -2vw;
+    bottom: 0vh;
+    margin-bottom: 4vh;
+    margin-top: 3vh;
+    display: block;
+}
+.box{
+    position: relative;
+    padding-left: 2vw;
+    padding-right: 1vw;
+    padding-top: 3.25vh;
+    padding-bottom: 3.25vh;
+    background-color: #433333;
+    margin-top: 4vh;
+    color: whitesmoke;
+    font-size: 3.5vh;
+    user-select: none;
+    border-radius: 1.5vh;
+}
+.photos{
+    display: flex;
+    justify-content: space-evenly;
+    width: 77vw;
+    flex-wrap: wrap;
+    margin: 0;
+}
+.photos img{
+    position: relative;
+    width:30vw;
+}
+.photos img:hover{
+    width: 33vw;
+    box-shadow: 0vh 0vh 2vh rgb(255,255,255);
+}
+.pair{
+    display: grid;
+    grid-template-columns: 30vw 45vw;
+    column-gap: 1vw;
+    margin-bottom: 5vh;
+}
+.pair p{
+    margin: 0;
+}

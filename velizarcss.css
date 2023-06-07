@@ -1,0 +1,84 @@
+body{
+    user-select: none;
+}
+#titlediv{
+    display: flex;
+    align-items: center;
+    background-image: url('images/Home/japanka.jpg');
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
+#title{
+    width: 100%;
+    height: 20vh;
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+    background-color: rgba(255,255,255,0.7);
+}
+#title h2{
+    font-size: 5vh;
+    font-weight: 700;
+    text-align: center;
+    font-family: Roboto;
+}
+#title p{
+    text-align: center;
+    font-size: 3vh;
+    font-weight: 400;
+    margin-top: 3vh;
+}
+#endpage{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 55vh 55vh;
+}
+.services{
+    width: 100%;
+    height: 20vh;
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+    background-color: rgb(0, 217, 255);
+}
+.services h2{
+    color: rgb(248, 232, 3);
+    font-size: 5vh;
+    font-weight: 700;
+    text-align: center;
+    font-family: Roboto;
+}
+.services p{
+    color: rgb(248, 232, 3);
+    text-align: center;
+    font-size: 3vh;
+    font-weight: 500;
+    margin-top: 3vh;
+}
+.picture{
+    background-image: url('images/Home/call.jpg');
+    background-size: cover;
+}
+.picture1{
+    background-image: url('images/Home/71MZfg0HvNL._AC_SL1235_.jpg');
+    background-size: cover;
+}
+.toptext{
+    padding-top: 4vh;
+    height: 55vh;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: rgb(248, 232, 3);
+    padding-left: 15vh;
+    padding-right: 15vh;
+}
+.toptext h2{
+    color: rgb(0, 217, 255);
+    font-size: 3.5vh;
+    font-weight: 700;
+    margin: 0;
+}
+.toptext p{
+    color: rgb(0, 217, 255);
+    font-size: 2vh;
+    margin-top: 0.5vh;
+}

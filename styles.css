@@ -1,0 +1,292 @@
+.alabala{
+    text-align: center;
+    font-size: 80px;
+    font-family: "Brush Script MT", cursive;
+}
+.alabala2{
+    text-align: center;
+    margin: 30px;
+    font-size: 80px;
+    font-family: "Noto";
+}
+.styled-table {
+    border-collapse: collapse;
+    margin: 25px 2px;
+    font-size: 1em;
+    font-family: sans-serif;
+    min-width: 400px;
+    box-shadow: 0 0 40px rgba(1, 1, 1, 1);
+    width:100%
+}
+.styled-table img{
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    z-index: -1;
+}
+.styled-table img:hover{
+    transition: all .5s; 
+    transform : scale(1.2);
+}
+.styled-table h1{
+    font-size: 25px;
+    font-family:"Century Gothic", sans-serif;
+    text-align: center;
+    z-index: 1;
+}
+.styled-table thead tr {
+    background-color: #4BF241;
+    color: #ffffff;
+    text-align: center;
+}
+.styled-table th,
+.styled-table td {
+    padding: 20px 20px;
+}
+.styled-table2 {
+    margin: 25px 0;
+    font-size: 1em;
+    font-family: sans-serif;
+    min-width: 400px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    width:100%
+}
+.styled-table2 thead tr {
+    font-size: 1.5em;
+    color: #DFDF09;
+    text-align: center;
+}
+.styled-table2 th,
+.styled-table2 td {
+    padding: 10px 10px;
+}
+.promociq{
+    margin: 50px 50px;
+}
+.promociq h1{
+    font-size: 25px;
+    font-family:"Century Gothic", sans-serif;
+    text-align: center;
+}
+.promociq h2{
+    font-size: 45px;
+    font-weight: strong;
+    font-family:"Century Gothic", sans-serif;
+    text-align: center;
+}
+.promociq2{
+    margin: 50px 50px;
+}
+.promociq2 img{
+    margin: 20px 20px;
+}
+.promociq2 h3{
+    font-size: 40px;
+    font-family:"Lucida Handwriting";
+    text-align: center;
+}
+.shrift1{
+    font-size: 35px;
+    padding: 20px;
+    margin: 30px 10px;
+    text-align: center;
+}
+.shrift2{
+    font-size: 40px;
+    font-family:"Century Gothic";
+    text-align: center;
+}
+.tablicamargin{
+    margin: 20px;
+}
+.aboutustable {
+    margin: 20px 20px;
+    border-collapse: collapse;
+    font-family: sans-serif;
+    box-shadow: 0 0 40px rgba(1, 1, 1, 1);
+}
+.aboutustable img{
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+.aboutustable img:hover{
+    transition: all .5s; 
+    transform : scale(1.2);
+}
+.aboutustable th,
+.aboutustable td {
+    padding: 20px 20px;
+}
+.aboutush1{
+    animation: color-change 5s infinite;
+    font-size: 40px;
+    font-style: italic; 
+}
+.aboutshrift2{
+    font-size: 35px;
+    text-align: center;
+    font-family:"Courier", monospace;
+}
+@keyframes color-change {
+    0% {color: rgb(0, 255, 34); }
+    10% {color:rgba(27, 128, 200)}
+    20% {color: rgb(135, 135, 238); }
+    30% {color:rgb(242, 116, 198)}
+    40% {color: rgb(255, 138, 138); }
+    50% {color:rgb(217, 36, 184)}
+    60% {color:rgb(181, 106, 247)}
+    70% {color:rgb(88, 187, 244)}
+    80% {color:rgb(19, 129, 192)}
+    90% {color:rgb(25, 233, 25)}
+    100% {color:rgb(216, 226, 17)}
+}
+.aboutshrift3{
+    font-size:30px;
+    text-align: center;
+    font-family: "Century Gothic", sans-serif;
+}
+.poruchka{
+    margin: 30px 30px;
+    text-align: center; 
+    font-size: 20px;
+}
+.poruchka a {
+    transition:font-size 12s;
+    -moz-transition:font-size 12s;
+    -webkit-transition:font-size 12s; 
+    -o-transition:font-size 12s;
+    color: #000000;
+    text-align: center;
+    text-decoration: none;
+    padding: 10px 10px;
+    font-size: 40px;
+    border-radius: 30px;
+}
+.poruchka a:hover{
+    font-size: 70px;
+}
+
+#spinner {
+    animation-name: spinner;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-duration: 5s;
+    text-align:center;
+}
+@keyframes spinner {
+    from {
+      transform: rotateY(0deg);
+    }
+    to {
+      transform: rotateY(360deg);
+    }
+}
+.parttable{
+     margin: 40px 40px;
+     border-collapse: collapse;
+     font-family: sans-serif;
+}
+.parttable img:hover{
+    transition: all .5s; 
+    transform : scale(1.2);
+}
+.gubishrift1{
+    padding: 40px 40px;
+    font-size: 35px;
+    font-family: "Century Gothic";
+}
+.istoriqglaven{
+    font-size: 70px;
+    font-family: "Courier";
+    padding-bottom: 30px;
+}
+.istoriqvutreshen{
+    font-size: 33px;
+}
+.grad1{
+    background: linear-gradient(0.5turn, #ffeb7d, #ffeb54, #83f6f8);
+}
+.material{
+    padding: 20px;
+}
+.material th,
+.material td {
+    padding: 20px 20px;
+}
+.materialdiv{
+    background: linear-gradient(0.5turn,  #83f6f8, #5acdff, #b1e1fe);
+}
+.material img{
+    margin-top: 30px;
+}
+.vidovegubi{
+    margin: 50px 100px;
+    text-align: center;
+    font-size: 50px;
+}
+.supertable{
+    margin: 20px 20px;
+    border-collapse: collapse;
+    font-family: sans-serif;
+    box-shadow: 0 0 40px rgba(1, 1, 1, 1);
+    width: 100px;
+}
+.supertable img:hover{
+    transition: all .5s; 
+    transform : scale(1.2);
+}
+.supertable th,
+.supertable td {
+    padding: 30px 30px;
+}
+.tableshrift{
+    text-align: center;
+    font-size: 30px;
+    font-family: "Comic Sans MS";
+}
+.prelivane2{
+    padding: 0px;
+    margin-top: 0px;
+    background: linear-gradient(0.5turn,  #b1e1fe, #ffffff);
+}
+.prelivane1{
+    padding: 0px;
+    margin-bottom: 0px;
+    background: linear-gradient(0.5turn, #ffffff,  #ffeb7d);
+}
+.prodajba{
+    margin: 100px 100px;
+    font-size: 20px;
+    font-family: "Brush Script MT";
+    text-align: right;
+}
+.prodajba a{
+    text-decoration: none;
+    padding: 10px 10px;
+    font-size: 40px;
+    border-radius: 30px;
+    text-emphasis-color: black;
+}
+.prodajba a:hover {
+    background-color:  #04AA6D;
+    color: black;
+}
+#showoff{
+    width: 100%;
+    height: 300px;
+    animation: color-change2 10s infinite;
+}
+@keyframes color-change2 {
+    0% {background-color: rgb(0, 255, 34); }
+    10% {background-color:rgba(27, 128, 200)}
+    20% {background-color: rgb(135, 135, 238); }
+    30% {background-color:rgb(242, 116, 198)}
+    40% {background-color: rgb(255, 138, 138); }
+    50% {background-color:rgb(217, 36, 184)}
+    60% {background-color:rgb(181, 106, 247)}
+    70% {background-color:rgb(88, 187, 244)}
+    80% {background-color:rgb(19, 129, 192)}
+    90% {background-color:rgb(25, 233, 25)}
+    100% {background-color:rgb(216, 226, 17)}
+}
+.tovamedrazni th,
+.tovamedrazni td {
+    padding: 20px 20px;
+}

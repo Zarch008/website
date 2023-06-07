@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:wght@400;700&display=swap');
+#topnav{
+    height : 10vh;
+    margin: 0;
+    column-gap: 1vw;
+    background-image: url('images/navbar-removebg-preview.png' );
+    background-size: 100vw 10vh;
+    background-repeat: no-repeat;
+    position: relative;
+    display: grid;
+    grid-template-columns: 10vh 1fr;
+    user-select: none;
+  }
+  #topnavmenu{
+    display: flex;
+    justify-content: flex-start;
+    gap: 4vw;
+  }
+  #topnavend{
+    flex-grow: 1;
+    display: flex;
+    justify-content: flex-end;
+  }
+  #logo{
+    margin-left: 0.75vw;
+    margin-top: 1vh;
+    height: 8vh;
+    width: 8vh;
+    user-select: none;
+    pointer-events: none;
+  }
+  .perfect{
+    color:yellow;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 25px;
+  }
+  .perfect2{
+    color:red;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 25px;
+  }
+  .topnavbutton{
+    display: inline-block;
+    font-family: Comic Neue;
+    overflow: hidden;
+    margin-top: 2.5vh;
+    background-color: red;
+    color: yellow;
+    height: 5vh;
+    width: 8vw;
+    font-size: 2vh;
+    border: solid;
+    border-color: yellow;
+    border-radius: 1vh;
+    font-weight: 700;
+    transition: box-shadow 150ms;
+  }
+  .active{
+    background-color: yellow;
+    color: red;
+    border-color: red;
+  }
+  .topnavbutton:hover{
+    box-shadow: 0.5vh 0.5vw 0.625vh rgba(255, 174, 0, 0.7);
+    cursor: pointer;
+  }
+  
+  body{
+    margin: 0;
+  }
+  @media screen and (max-width: 420px){
+    #topnavmenu{
+      flex-direction: column;
+    }
+    #topnavend{
+      flex-direction: column;
+    }
+  }
