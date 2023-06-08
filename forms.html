@@ -1,53 +1,51 @@
 <!DOCTYPE html>
+<html>
     <head>
-        <link rel = "stylesheet" href = "styles.css">
-        <link rel = "stylesheet" href = "topnav.css">
-        <link rel = "stylesheet" href = "botnav.css">
-        <link rel = "stylesheet" href = "specialen.css">
-        <link rel = "stylesheet" href = "velizarcss.css">
+        <title>PETROL</title>
+        <meta charset="UTF-8">
+        <!-- Взимаме размерите на екрана -->
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
-        <title>sanchopansatrade.com</title>
-        <title>sanchopansatrade.com</title>
-        <meta charset=”UTF-8”> 
+        <!-- Вкарваме CSS файловете за навигацията и самата страница -->
+        <link rel="stylesheet" href="styles/topnav.css">
+        <link rel="stylesheet" href="styles/petrol.css">
+        <!-- Това е за два допълнителни шрифта -->
+          <!--Roboto en-->
+          <link rel="preconnect" href="https://fonts.googleapis.com">
+          <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+          <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">              
     </head>
-    <body> 
+    <body>
         <div id="topnav">
-            <div> 
+            <div>
+              <!--<img src="images/shrekproba.png" id="logo">-->
             </div>
             <div id="topnavmenu">
-                <button class="topnavbutton"><a href = "index.html">HOME</a></button>
-                <button class="topnavbutton"><a href = "katalog.html">CATALOG</a></button>
-                <button class="topnavbutton"><a href = "petrol.html">PETROL</a></button>
-                <button class="topnavbutton"><a href = "aboutus.html">ABOUT US</a></button>
-                <button class="topnavbutton"><a href = "gubi.html">ГЪБИ ЗА МИВКА</a></button>
-                <div id="topnavend">
-                    <button class="topnavbutton active" style="margin-right: 2vw;"><a href = "forms.html" class = "perfect2">RATE US PLS</a></button>
-                </div>
-            </div>           
+              <a href="index.html" target="_self" alt="Error"><button class="topnavbutton">HOME</button></a>
+              <button class="topnavbutton" style="width: 10vw;">CATALOG FLIP-FLOP</button>
+              <button class="topnavbutton" style="width: 10vw;">CATALOG SPONGES</button>
+              <button class="topnavbutton active">PETROL</button>
+              <button class="topnavbutton">ABOUT US</button>
+              <div id="topnavend">
+                <button class="topnavbutton" style="margin-right: 2vw;">RATE US PLS</button>
+              </div>
+            </div>
         </div>
-        <div id="main">
+        <div id="main" style="margin-top: 5vh;">
             <div></div>
             <div>
               <div class="box" style="margin-top: 0;">
-                <form action="/action_page.php">
-                    <label for="fname">Име:</label><br>
-                    <input type="text" id="fname" name="fname" value=""><br>
-                    <label for="lname">Фамилия:</label><br>
-                    <input type="text" id="lname" name="lname" value=""><br><br>
-                    <label for="produkt">Продукт за покупка:</label>
-                    <input type="text" id="produkt" name="produkt" value=""><br>
-                    <label for="address">Адрес за доставка:</label>
-                    <input type="text" id="address" name="address" value=""><br>
-                    <laber for="opinion">Доволни ли сте от услугата?</laber>
-                    <input type="text" id="opinion" name="opinion" value=""><br>
-                    <input type="submit" value="Submit">
-                </form> 
+                <p>Три имена: </p>
+                <input type="text" placeholder="Име..." class="textbox"><br>
+                <input type="text" placeholder="Презиме..." class="textbox"><br>
+                <input type="text" placeholder="Фамилия..." class="textbox"><br>
+                <p>Адрес: </p>
+                <input type="text" placeholder="Адрес..." class="textbox"><br>
+                <p>Продукт от каталога: </p>
+                <input type="text" placeholder="Име на продукта..." class="textbox"><br>
+                <button class="textbox" style="margin-top: 3vh;">Подай</button>
               </div>
             </div>
               <div></div>
-        </div>
-    </body> 
+        </div> 
+    </body>
 </html>
